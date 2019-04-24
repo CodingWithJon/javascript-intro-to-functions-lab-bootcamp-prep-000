@@ -25,10 +25,10 @@ function logWhisper (string) {
 }
 
 function sayHiToGrandma (string) {
-  if (string === lowercase){
+  if (lowercase){
     return "I can't hear you!"
   }
-  else if (string === uppercase) {
+  else if (uppercase) {
     return "YES INDEED!"
   }
   else if (string === "I love you, Grandma."){
