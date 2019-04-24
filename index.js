@@ -8,7 +8,7 @@ var mixedCase = 'Hi there!'
 mixedCase.toLowerCase() === mixedCase
 mixedCase.toUpperCase() === mixedCase
 
-var gma = "I"
+var gma = "I love you, Grandma."
 
 function shout(string){
   return string.toUpperCase()
@@ -33,7 +33,7 @@ function sayHiToGrandma (string) {
   else if (uppercase) {
     return "YES INDEED!"
   }
-  else if (string === "I love you, Grandma."){
+  else if (string === gma){
   return "I love you, too."
 }
 else {
